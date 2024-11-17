@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <remote name="tilaksidduram" 
+            fetch="https://github.com/tilaksidduram"
+            revision="cm-14.1" />
+    
+    <project path="device/samsung/n7100" name="android_device_samsung_n7100" remote="tilaksidduram" />
+    <project path="device/samsung/smdk4412-common" name="android_device_samsung_smdk4412-common" remote="tilaksidduram" />
+    <project path="kernel/samsung/smdk4412" name="android_kernel_samsung_smdk4412" remote="tilaksidduram" />
+    <project path="packages/apps/SamsungServiceMode" name="android_packages_apps_SamsungServiceMode" remote="los" />
+    <project path="hardware/samsung" name="Halium/android_hardware_samsung" remote="hal" />
+    <project path="vendor/samsung" name="proprietary_vendor_samsung" remote="them" />
+</manifest>
